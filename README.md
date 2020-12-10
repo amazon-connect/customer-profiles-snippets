@@ -1,17 +1,8 @@
-## My Project
+# Welcome to the Amazon Connect Customer Profiles snippets repository
 
-TODO: Fill this README out!
+The code snippets for the two examples in the [Building unified customer profiles and personalized routing]() blog post can be found in the personalized-routing and unified-customer-profile directories respectively.
 
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
+For more information please feel free to check out:
+  - [Customer Profile documentation](https://docs.aws.amazon.com/connect/latest/adminguide/customer-profiles.html)
+  - [API Documentation ](https://docs.aws.amazon.com/customerprofiles/latest/APIReference/Welcome.html)
+  - [Launch blog post](https://aws.amazon.com/blogs/contact-center/amazon-connect-customer-profiles/)
