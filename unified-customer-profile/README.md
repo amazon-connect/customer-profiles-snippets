@@ -211,7 +211,7 @@ Example NodeJS SDK call for submitting our purchase subscription object:
 
 ```
 const purchaseObject = {
-  userId: '00001',
+  UserId: '00001',
   startDate: '2019-03-20',
   endDate: '2020-03-20',
   planType: 'Professional',
