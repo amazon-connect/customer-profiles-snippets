@@ -24,9 +24,9 @@ client.putProfileObjectType({
   "AllowProfileCreation": true,
   "ExpirationDays": 100,
   "Fields": {
-      "userid" : {
+      "UserId" : {
           "ContentType": "STRING",
-          "Source": "_source.userId",
+          "Source": "_source.UserId",
           "Target": "_profile.AccountNumber"
       },
       "startdate" : {
@@ -53,7 +53,7 @@ client.putProfileObjectType({
   "Keys": {
       "_account" : [
           {
-              "FieldNames": ["userid"],
+              "FieldNames": ["UserId"],
               "StandardIdentifiers" : [ "PROFILE", "UNIQUE"]
           }
       ]
@@ -71,9 +71,9 @@ client.putProfileObjectType({
   "AllowProfileCreation": true,
   "ExpirationDays": 400,
   "Fields": {
-      "userid" : {
+      "UserId" : {
           "ContentType": "STRING",
-          "Source": "_source.userId",
+          "Source": "_source.UserId",
           "Target": "_profile.AccountNumber"
       },
       "startdate" : {
@@ -108,7 +108,7 @@ client.putProfileObjectType({
   "Keys": {
       "_account" : [
           {
-              "FieldNames": ["userid"],
+              "FieldNames": ["UserId"],
               "StandardIdentifiers" : [ "PROFILE", "UNIQUE" ]
           }
       ]
@@ -127,7 +127,7 @@ client.putProfileObjectType({
   "AllowProfileCreation": true,
   "ExpirationDays": 1000,
   "Fields": {
-      "userid" : {
+      "UserId" : {
           "ContentType": "STRING",
           "Source": "_source.UserId",
           "Target": "_profile.AccountNumber"
@@ -156,7 +156,7 @@ client.putProfileObjectType({
   "Keys": {
     "_account" : [
         {
-            "FieldNames": ["userid"],
+            "FieldNames": ["UserId"],
             "StandardIdentifiers" : [ "PROFILE", "UNIQUE" ]
         }
     ],
