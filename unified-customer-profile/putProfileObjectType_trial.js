@@ -5,9 +5,9 @@ return lockeClient.putProfileObjectType({
     "AllowProfileCreation": true,
     "ExpirationDays": 100,
     "Fields": {
-        "userid" : {
+        "UserId" : {
             "ContentType": "STRING",
-            "Source": "_source.userId",
+            "Source": "_source.UserId",
             "Target": "_profile.AccountNumber"
         },
         "startdate" : {
@@ -34,7 +34,7 @@ return lockeClient.putProfileObjectType({
     "Keys": {
         "_account" : [
             {
-                "FieldNames": ["userid"],
+                "FieldNames": ["UserId"],
                 "StandardIdentifiers" : [ "PROFILE", "UNIQUE"]
             }
         ]
