@@ -9,7 +9,7 @@ const purchaseObject = {
     autoRenew: 'False'
 };
 
-return lockeClient.putProfileObject({
+return customerProfilesClient.putProfileObject({
     "DomainName": domainName,
     "ObjectTypeName": "PurchasedSubscription",
     "Object": JSON.stringify(purchaseObject)

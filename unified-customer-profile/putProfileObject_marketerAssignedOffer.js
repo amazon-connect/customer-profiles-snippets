@@ -5,7 +5,7 @@ const marketerAssignedObject = {
     offerViewed: 'false'
 };
 
-return lockeClient.putProfileObject({
+return customerProfilesClient.putProfileObject({
     "DomainName": domainName,
     "ObjectTypeName": "MarketingAssignedOffers",
     "Object": JSON.stringify(marketerAssignedObject)
