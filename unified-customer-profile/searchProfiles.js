@@ -1,4 +1,4 @@
-return lockeClient.searchProfiles({
+return customerProfilesClient.searchProfiles({
       "DomainName": domainName,
       "KeyName": "_account",
       "Values": ['00001']

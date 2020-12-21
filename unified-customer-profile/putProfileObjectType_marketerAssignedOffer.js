@@ -1,4 +1,4 @@
-return lockeClient.putProfileObjectType({
+return customerProfilesClient.putProfileObjectType({
     "DomainName": domainName,
     "ObjectTypeName": "MarketingAssignedOffers",
     "Description": "Marketing Managed Offers",

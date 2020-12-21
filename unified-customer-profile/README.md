@@ -192,7 +192,7 @@ Example NodeJS SDK call for submitting our trial subscription object:
 ```
 const trialObject = {
   id: 'trial-id-1',
-  userId: '00001',
+  UserId: '00001',
   startDate: '2020-01-19',
   endDate: '2020-03-19',
   trialDays: '90',

@@ -8,7 +8,7 @@ const trialObject = {
     status: 'Expired'
 };
 
-return lockeClient.putProfileObject({
+return customerProfilesClient.putProfileObject({
     "DomainName": domainName,
     "ObjectTypeName": "TrialSubscription",
     "Object": JSON.stringify(trialObject)
@@ -17,7 +17,7 @@ return lockeClient.putProfileObject({
   console.log('putProfileObject Result');
   console.log(JSON.stringify(data, null, 2));
 
-  return lockeClient.searchProfiles({
+  return customerProfilesClient.searchProfiles({
       "DomainName": domainName,
       "KeyName": "_account",
       "Values": ['00001']
