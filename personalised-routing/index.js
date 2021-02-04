@@ -1,6 +1,6 @@
 const AWS = require("aws-sdk");
 AWS.config.update({region: 'REGION'});
-const client = new AWS.Profile();
+const client = new AWS.CustomerProfiles();
 
 exports.handler = async (event) => {
     var phoneNumber = event.Details.ContactData.CustomerEndpoint.Address;
