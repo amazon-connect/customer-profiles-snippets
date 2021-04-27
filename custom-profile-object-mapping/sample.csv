@@ -1,10 +1,10 @@
-CustomerId,ReferenceId,ServiceDate,ServiceType,AssignedAgent,CompletionDate,Notes
-AAA111,111222,2/10/21,Cleaning,John Doe,2/14/2021,Task completed successfully
-AAA112,111223,3/10/21,Cleaning,John Doe,3/10/21,Task completed successfully
-AAA113,111224,4/10/21,Cleaning,John Doe,4/10/21,Task completed successfully
-AAA114,111225,5/10/21,Cleaning,Nikki Wolf,5/10/21,Task completed successfully
-AAA115,111226,6/10/21,Plumbing,Nikki Wolf,6/10/21,Task cancelled
-AAA116,111227,7/10/21,Plumbing,Nikki Wolf,7/10/21,"Could no finish task on time, need a second appointment"
-AAA117,111228,8/10/21,Plumbing,Nikki Wolf,8/10/21,Task completed successfully
-AAA118,111229,9/10/21,Moving,Jane Roe,9/10/21,Task completed successfully
-AAA119,111230,10/10/21,Moving,Jane Roe,10/10/21,Task completed successfully
+CustomerId,ReferenceId,Phone,ServiceDate,ServiceType,AssignedAgent,CompletionDate,Notes
+AAA111,111222,111111111,2/10/21,Cleaning,John Doe,2/14/2021,Task completed successfully
+AAA112,111223,222222222,3/10/21,Cleaning,John Doe,3/10/21,Task completed successfully
+AAA113,111224,333333333,4/10/21,Cleaning,John Doe,4/10/21,Task completed successfully
+AAA114,111225,444444444,5/10/21,Cleaning,Nikki Wolf,5/10/21,Task completed successfully
+AAA115,111226,555555555,6/10/21,Plumbing,Nikki Wolf,6/10/21,Task cancelled
+AAA116,111227,666666666,7/10/21,Plumbing,Nikki Wolf,7/10/21,"Could no finish task on time, need a second appointment"
+AAA117,111228,777777777,8/10/21,Plumbing,Nikki Wolf,8/10/21,Task completed successfully
+AAA118,111229,888888888,9/10/21,Moving,Jane Roe,9/10/21,Task completed successfully
+AAA119,111230,999999999,10/10/21,Moving,Jane Roe,10/10/21,Task completed successfully
