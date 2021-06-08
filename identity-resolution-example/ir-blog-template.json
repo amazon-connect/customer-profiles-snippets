@@ -1,0 +1,55 @@
+{
+    "DomainName": "YOUR DOMAIN NAME",
+    "ObjectTypeName": "IdentityResolutionBlogExampleObject",
+    "Description": "This example creates an example object for the IR blog to ingest data from Amazon S3",
+    "AllowProfileCreation": true,
+    "Fields": {
+        "FirstName": {
+            "Source": "_source.FirstName",
+            "Target": "_profile.FirstName",
+            "ContentType": "NAME"
+        },
+        "LastName": {
+            "Source": "_source.LastName",
+            "Target": "_profile.LastName",
+            "ContentType": "NAME"
+        },
+        "Phone": {
+            "Source": "_source.Phone",
+            "Target": "_profile.PhoneNumber",
+            "ContentType": "PHONE_NUMBER"
+        },
+        "Email": {
+            "Source": "_source.Email",
+            "Target": "_profile.EmailAddress",
+            "ContentType": "EMAIL_ADDRESS"
+        },
+        "LastUpdated": {
+            "Source": "_source.LastUpdated",
+            "Target": "_profile.Attributes.LastUpdatedTime",
+            "ContentType": "STRING"
+        },
+        "RecordId": {
+            "Source": "_source.RecordId",
+            "ContentType": "STRING"
+        },
+        "Account": {
+            "Source": "_source.Account",
+            "Target": "_profile.AccountNumber",
+            "ContentType": "STRING"
+        }
+    },
+    "Keys": {
+        "RecordId": [
+            {
+                "FieldNames": [
+                    "RecordId"
+                ],
+                "StandardIdentifiers": [
+                    "PROFILE",
+                    "UNIQUE"
+                ]
+            }
+        ]
+    }
+}
