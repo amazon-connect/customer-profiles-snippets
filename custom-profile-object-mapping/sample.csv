@@ -1,4 +1,4 @@
-CustomerId,FirstName,LastName,ReferenceId,Phone,ServiceDate,ServiceType,AssignedAgent,CompletionDate,Notes
+CustomerId,FirstName,LastName,ReferenceId,PhoneNumber,ServiceDate,ServiceType,AssignedAgent,CompletionDate,Notes
 AAA111,Mary,Major,111222,111111111,2/10/21,Cleaning,John Doe,2/14/2021,Task completed successfully
 AAA112,Richard,Roe,111223,222222222,3/10/21,Cleaning,John Doe,3/10/21,Task completed successfully
 AAA113,Xiulan,Wang,111224,333333333,4/10/21,Cleaning,John Doe,4/10/21,Task completed successfully
